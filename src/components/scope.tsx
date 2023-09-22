@@ -1,10 +1,10 @@
 
 import '../styles/video.css';
 interface progs {
-    image: String,
-    title: String,
-    button: String,
-    text: String,
+    image: string,
+    title: string,
+    button: string,
+    text: string,
     mobile: boolean
 
 }

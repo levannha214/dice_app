@@ -3,12 +3,12 @@ import 'video-react/dist/video-react.css';
 import '../styles/menu.css';
 import { Button } from 'antd';
 interface props {
-    mobile: boolean,
-    desktop: boolean,
-    large: boolean
+    mobile?: boolean,
+    desktop?: boolean,
+    large?: boolean
 
 }
-const BannerHome: React.FC<props> = ({ mobile, desktop, large }) => {
+const BannerHome: React.FC<props> = ({ mobile, desktop }) => {
 
 
     return (<article className={mobile ? "col-12 col-ms-12 d-flex flex-column-reverse" : "col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-4 d-flex "}>

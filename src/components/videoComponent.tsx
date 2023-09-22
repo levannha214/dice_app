@@ -3,19 +3,19 @@ import Video from './video';
 import { Button } from 'antd';
 import '../styles/video.css';
 interface props {
-    text: String,
-    button: String
-    name: String
-    url: String
-    title: String,
-    desktop: boolean,
-    large: boolean,
-    more: String,
-    help: String,
-    content: String,
-    image: String,
-    widthLeft: String,
-    widthRight: String,
+    text?: string,
+    button?: string
+    name?: string
+    url?: string
+    title?: string,
+    desktop?: boolean,
+    large?: boolean,
+    more?: string,
+    help?: string,
+    content?: string,
+    image?: string,
+    widthLeft?: string,
+    widthRight?: string,
 
 }
 

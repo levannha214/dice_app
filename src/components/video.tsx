@@ -1,7 +1,7 @@
 
 import { Player } from 'video-react';
 interface props {
-    url: String
+    url: string
 }
 const Video: React.FC<props> = ({ url }) => {
     return (
