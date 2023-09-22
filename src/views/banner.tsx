@@ -1,14 +1,12 @@
-import { Player } from "video-react";
 import "video-react/dist/video-react.css";
 import "../styles/menu.css";
 import { Button } from "antd";
 interface props {
-  mobile?: boolean,
-  desktop?: boolean,
-  large?: boolean
-
+  mobile?: boolean;
+  desktop?: boolean;
+  large?: boolean;
 }
-const BannerHome: React.FC<props> = ({ mobile, desktop, large }) => {
+const BannerHome: React.FC<props> = ({ mobile, desktop }) => {
   return (
     <article
       className={
